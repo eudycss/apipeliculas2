@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from peewee import *
 from modelo import *
-from uuid import uuid4 as uuid
+
 
 db = SqliteDatabase('Peli.db')
 
